@@ -1,0 +1,4 @@
+/* Display name and description for this extension. */
+"CFBundleDisplayName" = "Gaetano Menu";
+"com.apple.notificationcenter.widget.description" = "Gaetano business-lunch menu";
+

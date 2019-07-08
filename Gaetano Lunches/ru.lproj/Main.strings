@@ -1,0 +1,33 @@
+
+/* Class = "NSMenuItem"; title = "Gaetano Lunches"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "Бизнес-ланчи Гаэтано";
+
+/* Class = "NSMenuItem"; title = "Quit Gaetano Lunches"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Выйти";
+
+/* Class = "NSMenuItem"; title = "About Gaetano Lunches"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "О программе Бизнес-ланчи Гаэтано";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
+"BOF-NM-1cW.title" = "Настройки…";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "Помощь";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Show All";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "NMo-om-nkz"; */
+"NMo-om-nkz.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Hide Gaetano Lunches"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Hide Gaetano Lunches";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Hide Others";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "hz9-B4-Xy5"; */
+"hz9-B4-Xy5.title" = "Services";
+
+/* Class = "NSMenu"; title = "Gaetano Lunches"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "Бизнес-ланчи Гаэтано";
