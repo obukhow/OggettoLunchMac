@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7595C76F22D212C200C5B079"
-               BuildableName = "Gaetano Lunches.app"
-               BlueprintName = "Gaetano Lunches"
+               BuildableName = "Oggetto Business Lunches.app"
+               BlueprintName = "Oggetto Business Lunches"
                ReferencedContainer = "container:Gaetano Lunches.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7595C76F22D212C200C5B079"
-            BuildableName = "Gaetano Lunches.app"
-            BlueprintName = "Gaetano Lunches"
+            BuildableName = "Oggetto Business Lunches.app"
+            BlueprintName = "Oggetto Business Lunches"
             ReferencedContainer = "container:Gaetano Lunches.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -42,9 +42,10 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
-      selectedDebuggerIdentifier = ""
-      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      disableMainThreadChecker = "YES"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -58,8 +59,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7595C76F22D212C200C5B079"
-            BuildableName = "Gaetano Lunches.app"
-            BlueprintName = "Gaetano Lunches"
+            BuildableName = "Oggetto Business Lunches.app"
+            BlueprintName = "Oggetto Business Lunches"
             ReferencedContainer = "container:Gaetano Lunches.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -83,8 +84,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7595C76F22D212C200C5B079"
-            BuildableName = "Gaetano Lunches.app"
-            BlueprintName = "Gaetano Lunches"
+            BuildableName = "Oggetto Business Lunches.app"
+            BlueprintName = "Oggetto Business Lunches"
             ReferencedContainer = "container:Gaetano Lunches.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

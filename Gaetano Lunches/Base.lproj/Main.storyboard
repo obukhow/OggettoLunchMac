@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="xaI-cv-Ulj">
     <dependencies>
+        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -29,7 +30,7 @@
         <!--View Controller-->
         <scene sceneID="cm9-Xf-egQ">
             <objects>
-                <viewController id="NPn-d3-UUg" customClass="ViewController" customModule="Gaetano_Lunches" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NPn-d3-UUg" customClass="ViewController" customModule="Oggetto_Business_Lunches" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="7dZ-Af-Bg6">
                         <rect key="frame" x="0.0" y="0.0" width="327" height="229"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -128,9 +129,9 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="Gaetano Lunches" id="1Xt-HY-uBw">
+                            <menuItem title="Oggetto Business Lunches" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Gaetano Lunches" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Oggetto Business Lunches" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
                                         <menuItem title="About Gaetano Lunches" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
@@ -179,7 +180,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Gaetano_Lunches" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Oggetto_Business_Lunches" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -189,8 +190,8 @@
         <scene sceneID="o3h-Mo-hDc">
             <objects>
                 <windowController id="BTN-Rm-x9H" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="BBs-CB-R3v">
-                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                    <window key="window" title="Today Menu" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" frameAutosaveName="" animationBehavior="default" id="BBs-CB-R3v">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>

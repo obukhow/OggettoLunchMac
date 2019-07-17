@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7595C7BF22D21F1300C5B079"
-               BuildableName = "Gaetano Menu.appex"
-               BlueprintName = "Gaetano Menu"
+               BuildableName = "Oggetto Business Lunches Widget.appex"
+               BlueprintName = "Oggetto Business Lunches Widget"
                ReferencedContainer = "container:Gaetano Lunches.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -30,8 +30,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7595C76F22D212C200C5B079"
-               BuildableName = "Gaetano Lunches.app"
-               BlueprintName = "Gaetano Lunches"
+               BuildableName = "Oggetto Business Lunches.app"
+               BlueprintName = "Oggetto Business Lunches"
                ReferencedContainer = "container:Gaetano Lunches.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -48,8 +48,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7595C7BF22D21F1300C5B079"
-            BuildableName = "Gaetano Menu.appex"
-            BlueprintName = "Gaetano Menu"
+            BuildableName = "Oggetto Business Lunches Widget.appex"
+            BlueprintName = "Oggetto Business Lunches Widget"
             ReferencedContainer = "container:Gaetano Lunches.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -57,9 +57,9 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
-      selectedDebuggerIdentifier = ""
-      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -67,19 +67,27 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
-      <PathRunnable
+      <RemoteRunnable
          runnableDebuggingMode = "0"
-         FilePath = "/&lt;placeholder&gt;">
-      </PathRunnable>
+         BundleIdentifier = "com.apple.notificationcenter.widgetsimulator"
+         RemotePath = "/System/Library/Frameworks/NotificationCenter.framework/Versions/A/Resources/Widget Simulator.app">
+      </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7595C76F22D212C200C5B079"
-            BuildableName = "Gaetano Lunches.app"
-            BlueprintName = "Gaetano Lunches"
+            BuildableName = "Oggetto Business Lunches.app"
+            BlueprintName = "Oggetto Business Lunches"
             ReferencedContainer = "container:Gaetano Lunches.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = ""
+            value = ""
+            isEnabled = "NO">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -95,8 +103,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7595C76F22D212C200C5B079"
-            BuildableName = "Gaetano Lunches.app"
-            BlueprintName = "Gaetano Lunches"
+            BuildableName = "Oggetto Business Lunches.app"
+            BlueprintName = "Oggetto Business Lunches"
             ReferencedContainer = "container:Gaetano Lunches.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

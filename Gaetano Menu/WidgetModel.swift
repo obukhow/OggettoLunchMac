@@ -13,15 +13,15 @@ import Foundation
 
 var todayMenu: [String] {
     get {
-//        if let array = UserDefaults.standard.array(forKey: getCacheKey())
-//            as? [String] {
-//            return array
-//        } else {
+        if let array = UserDefaults.standard.array(forKey: getCacheKey())
+            as? [String] {
+            return array
+        } else {
             let result = getServerData()
             UserDefaults.standard.set(result, forKey: getCacheKey())
             UserDefaults.standard.synchronize()
             return result
-//        }
+        }
     }
     set {
         UserDefaults.standard.set(newValue, forKey: getCacheKey())
@@ -64,7 +64,7 @@ func getServerData() -> [String] {
     
     var result: [String] = []
     
-    let url = URL(string: "https://obukhow.ru/oggetto/gaetano-api.php")!
+    let url = URL(string: "http://obukhow.ru/oggetto/gaetano-api.php")!
     
     var data :Data? = URLSession.shared.synchronousDataTask(with: url)
     
@@ -75,6 +75,6 @@ func getServerData() -> [String] {
     } catch let error as NSError {
         print(error.localizedDescription)
     }
-
+    
     return result
 }

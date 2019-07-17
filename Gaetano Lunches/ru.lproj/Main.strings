@@ -31,3 +31,6 @@
 
 /* Class = "NSMenu"; title = "Gaetano Lunches"; ObjectID = "uQy-DD-JDr"; */
 "uQy-DD-JDr.title" = "Бизнес-ланчи Гаэтано";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "r14-BR-8ba"; */
+"r14-BR-8ba.title" = "Меню на сегодня";
